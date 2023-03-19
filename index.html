@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="font-roboto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/dist/output.css" />
+</head>
+<body class="bg-primary-300">
+    <main class="w-full lg:w-[70%] sm:w-[90%] mx-auto h-screen px-8 py-6">
+        <header class="flex gap-4 items-center w-full mb-margin26">
+            <img class="flex-grow-0" src="./src/images/foto.png" alt="Foto de uma garota de oculos." />
+            <div class="grow">
+                <h1 class="text-white text-base">Cecilia Sassaki</h1>
+                <span class="text-green text-xs flex flex-row items-center gap-[4px]">
+                    <div class="bg-green w-[8px] h-[8px] rounded"></div>
+                    Online
+                </span>
+            </div>
+            <button class="text-white flex-grow-0">X</button>
+        </header>
+
+        <span class="text-gray text-xs block text-center mb-margin30">Hoje 11:30</span>
+    
+        <section class="flex flex-col gap-margin30 mb-14">
+            <div class="max-w-[150px] lg:max-w-none w-full lg:w-fit">
+                <span class="text-gray text-xs block mb-2.5">Cecilia - 11:30</span>
+                <p class="p-3.5 bg-primary-100 text-gray text-xs rounded-lg rounded-tl-none">Tive uma ideia incrível para um projeto! 😍</p>
+            </div>
+
+            <div class="max-w-[150px] lg:max-w-none w-full lg:w-fit self-end">
+                <span class="text-gray text-xs block mb-2.5 text-end">Você - 11:32</span>
+                <p class="p-3.5 bg-green text-gray text-xs rounded-lg rounded-br-none">Sério? Me conta mais.</p>
+            </div>
+            
+            <div class="max-w-[150px] lg:max-w-none w-full lg:w-fit">
+                <span class="text-gray text-xs block mb-2.5">Cecilia - 11:34</span>
+                <p class="p-3.5 bg-primary-100 text-gray text-xs rounded-lg rounded-tl-none">E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</p>
+            </div>
+
+            <div class="max-w-[150px] lg:max-w-none w-full lg:w-fit self-end">
+                <span class="text-gray text-xs block mb-2.5 text-end">Você - 11:36</span>
+                <p class="p-3.5 bg-green text-gray text-xs rounded-lg rounded-br-none">#boraCodar! 🚀</p>
+            </div>
+        </section>
+
+        <form class="w-full relative">
+            <label for="type" class="sr-only">Enviar mensagem</label>
+            <input class="text-gray bg-primary-200 rounded-full p-4 w-full" id="type" type="text" placeholder="Digite sua mensagem" />
+            <button class="absolute right-4 top-4">
+                <img src="./src/images/send-messege-arrow.svg" alt="Arrow to rigth" />
+            </button>
+        </form>
+    </main>
+</body>
+</html>
